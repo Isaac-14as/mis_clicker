@@ -10,6 +10,7 @@ ABILITY_3 = (1043, 961)
 ABILITY_4 = (1219, 975)
 
 
+
 CHANGE_ABILITY_BUTTON_LEFT_POS = (1333, 966)
 
 
@@ -73,9 +74,11 @@ CHECK_HP_MIS = {
 }
 
 CATCH_BUTTON_POS = (960, 139)
+
+# Вероятно, что разный цвет на разных локациях
 SKIP_BUTTON = {
-    'pos': (973, 588),
-    'col': (222, 179, 134)
+    'pos': (982, 588),
+    'col': (223, 181, 138)
 }
 KEEP_BUTTON = (1057, 605)
 
@@ -156,3 +159,40 @@ SKIP_MENU = {
 # Координаты: (954, 130), цвет RGB: (191, 118, 49)
 # Координаты: (1011, 293), цвет RGB: (121, 181, 47)
 # Координаты: (1056, 345), цвет RGB: (103, 160, 46)
+
+
+HEAL_CHECK = {
+    'pos': (181, 93),
+    'col': (74, 94, 90)
+}
+
+HEAL_BUTTON_POS = (1691, 89)
+
+
+LOG_MENU_CHECK = {
+    'pos': (1209, 584),
+    'col': (214, 135, 182)
+}
+
+LOG_MENU_BUTTON = (890, 666)
+
+OPEN_LOG_MENU_BUTTOM = (927, 440)
+
+CHECK_LOG_MENU = {
+    'pos': (863, 441),
+    'col': (229, 229, 229)
+}
+
+EXIT_GAME_POS = (1886, 13)
+
+ICON_GAME = (1850, 42)
+
+DAILY_SPIN_CHECK = {
+    'pos': (764, 243),
+    'col': (107, 139, 12)
+}
+DAILY_SPIN_BUTTON = (964, 815)
+
+IM_DONE = (1067, 665)
+
+DAILY_SPIN_EXIT = (1148, 417)
